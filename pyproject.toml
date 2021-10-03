@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rs_software_zhixue"
+version = "0.0.10b2"
+description = "在NoneBot上查询你的智学网分数"
+authors = ["RisConn Software <consumer@risconn.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8.2"
+zhixuewang = "^1.0.7"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+
+[build-system]
+requires = ["poetry-core>=1.0.0","wheel"]
+build-backend = "poetry.core.masonry.api"
